@@ -14,9 +14,9 @@ public class CaptchaManager {
 	
 	public CaptchaResponseDto verifyCaptcha(String response, String remoteIp) {
 		
-		//String secret = "6LecKKAUAAAAAFlTHesFK5rmEpZ3iKklpYmMujsZ"; //babel
-		//String secret = "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe"; //siempre
-		String secret = "6LcbgaAUAAAAAIJim8IiyrClLFAVyOi-cM65Mqpk"; //mia
+
+		String secret = "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe"; //siempre
+
 				
 		
 		RestTemplate restTemplate = new RestTemplate();
